@@ -1,0 +1,41 @@
+body{
+    background: pink;
+    font-size: 30px;
+}
+
+section{
+    width: 90%;
+    height: 100%;
+    margin-top: 0%;
+    background: palevioletred;
+    margin-left: 5%;
+}
+
+#ingredientes{
+    background: papayawhip;
+    margin: 2%;
+    text-align: left;
+}
+
+#info{
+    background-color: antiquewhite;
+    width: 100%;
+    margin: 0%;
+    float: left;
+}
+
+#pasos{
+    background: palegreen;
+    flex-direction: row;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+#pasos>div{
+    margin: 1.8%;
+}
+
+#pasos>div>img{
+    height: 200px;
+}
